@@ -1,0 +1,25 @@
+# Draft catalogue entry for a later pull request to
+# NousResearch/hermes-agent (plugin-catalog/verifymcp.yaml).
+# Do not open that pull request from this repository.
+#
+# Replace sha with the full 40-character commit of
+# https://github.com/Im5tu/verifymcp-plugins that the reviewer will pin.
+# Branches, tags and short SHAs are rejected. This placeholder is not a pin.
+name: verifymcp
+title: VerifyMCP
+repo: https://github.com/Im5tu/verifymcp-plugins
+sha: "REPLACE_WITH_REVIEWED_40_CHAR_COMMIT"
+subdir: hermes/verifymcp
+description: "Independent trust scores, tool surfaces and change history for MCP servers, from the public Streamable HTTP endpoint at https://mcp.verifymcp.io. Portable Agent Plugins v1 package (plugin.json + mcp.json + skills/). Disclosure: every tool call is an HTTPS request to mcp.verifymcp.io with the arguments the agent passes. No API key and no local credential store. OAuth (scope directory:read) is optional; the tools answer without it. Scores, trust reports and change feeds are CC BY-NC 4.0 (https://verifymcp.io/docs/data-licence). The tool list is served by the endpoint at runtime, so the pinned commit does not freeze it."
+maintainer: VerifyMCP
+tier: community
+category: tools
+docs_url: https://verifymcp.io/docs
+version: "1.0.0"
+platforms: []
+readme: true
+capabilities:
+  provides_tools: []
+  provides_hooks: []
+  provides_middleware: []
+  requires_env: []

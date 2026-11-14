@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "verifymcp": {
+      "type": "streamableHttp",
+      "url": "https://mcp.verifymcp.io"
+    }
+  }
+}

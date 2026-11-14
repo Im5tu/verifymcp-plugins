@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verifymcp",
+  "version": "1.0.0",
+  "description": "Independent trust scores, tool surfaces and change history for MCP servers.",
+  "author": {
+    "name": "VerifyMCP",
+    "email": "hello@verifymcp.io",
+    "url": "https://verifymcp.io"
+  },
+  "homepage": "https://verifymcp.io",
+  "repository": "https://github.com/Im5tu/verifymcp-plugins",
+  "license": "MIT",
+  "keywords": ["mcp", "trust", "security"]
+}
