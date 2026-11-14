@@ -1,0 +1,43 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.verifymcp/mcp",
+  "title": "VerifyMCP",
+  "description": "Independent trust scores, tool surfaces and change history for MCP servers.",
+  "version": "1.0.0",
+  "websiteUrl": "https://verifymcp.io",
+  "icons": [
+    {
+      "src": "https://verifymcp.io/icon-192.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "192x192"
+      ]
+    },
+    {
+      "src": "https://verifymcp.io/logo-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://verifymcp.io/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Im5tu/verifymcp",
+    "source": "github",
+    "id": "1281383123",
+    "subfolder": "mcp"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.verifymcp.io"
+    }
+  ]
+}
